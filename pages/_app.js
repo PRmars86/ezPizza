@@ -1,6 +1,7 @@
 import "../components/globals.css"
 import Link from 'next/link';
 import styles from '../components/MyApp.module.css'
+import Head from 'next/head'
 
 export default function MyApp({ Component, pageProps }) {
     return (

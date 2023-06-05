@@ -1,3 +1,5 @@
-export default function About() {
-    return (<h1>About page</h1>);
+import About from "../components/about/About";
+
+export default function AboutPage() {
+    return <About></About>;
 }
