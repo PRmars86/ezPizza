@@ -1,3 +1,11 @@
-export default function Home() {
-    return (<h1>Hello, Next.js!</h1>);
+import Layout from "../components/Layout/Layout";
+import Home from "../components/Home/Home";
+
+
+export default function home() {
+    return (
+        <Layout>
+            <Home />
+        </Layout>
+    );
 }
