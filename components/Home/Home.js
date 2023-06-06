@@ -59,6 +59,42 @@ export default function Home({ children }) {
             price: 59.99,
             description: 'pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese',
         },
+        {
+            id: '7',
+            name: 'Egg & Sausage Pizza',
+            slug: 'egg-and-sausage-pizza',
+            toppings: ['mozzarella cheese', 'egg'],
+            image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+            price: 59.99,
+            description: 'pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese',
+        },
+        {
+            id: '8',
+            name: 'Egg & Sausage Pizza',
+            slug: 'egg-and-sausage-pizza',
+            toppings: ['mozzarella cheese', 'egg'],
+            image: 'https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+            price: 59.99,
+            description: 'pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese',
+        },
+        {
+            id: '9',
+            name: 'Egg & Sausage Pizza',
+            slug: 'egg-and-sausage-pizza',
+            toppings: ['mozzarella cheese', 'egg'],
+            image: 'https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+            price: 59.99,
+            description: 'pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese',
+        },
+        {
+            id: '10',
+            name: 'Egg & Sausage Pizza',
+            slug: 'egg-and-sausage-pizza',
+            toppings: ['mozzarella cheese', 'egg'],
+            image: 'https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80',
+            price: 59.99,
+            description: 'pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese',
+        },
     ]
 
     const [keyword, setKeyword] = useState('');
